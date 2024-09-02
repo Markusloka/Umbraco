@@ -3,13 +3,13 @@
 @{
 	Layout = null;
 
-	var pageTitle = !string.IsNullOrEmpty(ViewBag.title) ? $"{ViewBag.Title} | Onatrix - Financial Solutions for Your Busniess" : "Onatrix - Financial Solutions for Your Busniess" ; 
+	var pageTitle = !string.IsNullOrEmpty(ViewBag.title) ? $"{ViewBag.Title} | Onatrix - Financial Solutions for Your Busniess" : "Onatrix - Financial Solutions for Your Busniess"; 
 }
 
 
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
@@ -21,7 +21,7 @@
 <div class="wrapper">
 	<header></header>
 	<main>
-	@RenderBody()
+		@RenderBody()
 	</main>
 	<footer></footer>
 </div>
