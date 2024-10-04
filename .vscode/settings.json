@@ -1,0 +1,5 @@
+{
+  "appService.preDeployTask": "publish-release",
+  "appService.deploySubpath": "bin/Release/net8.0/publish",
+  "appService.defaultWebAppToDeploy": "/subscriptions/d037a590-f93b-439e-b834-144fcbf7e82e/resourceGroups/Umbraco/providers/Microsoft.Web/sites/umbraco-markuslok"
+}
